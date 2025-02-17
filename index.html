@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Black Hole</title>
+  </head>
+  <body>
+    <div class="container">
+      <video
+        class="bg-video"
+        loop
+        autoplay
+        muted
+        plays-inline
+        src="./videos/galaxy.mp4"
+        type="video/mp4"
+      ></video>
+
+      <header>
+        <div class="left">
+          <img src="images/logo.png" alt="logo" />
+          <h1><span style="color: #8491f1">Love</span>Code</h1>
+        </div>
+
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+
+        <div class="box-icons">
+          <a href="#"><i class="bx bxl-youtube"></i></a>
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+        </div>
+      </header>
+
+      <div class="black-hole">
+        <video
+          loop
+          autoplay
+          muted
+          plays-inline
+          src="./videos/blackhole.mp4"
+          type="video/mp4"
+        ></video>
+      </div>
+
+      <section class="hero">
+        <div class="hero-info">
+          <div class="hero-info-title">
+            <i class="bx bxl-sketch"></i>
+            Mern Stack Developer Portfolio
+          </div>
+          <h1>
+            Providing <span class="gradient">the best</span> Project
+            <span class="gradient">Experience</span>
+          </h1>
+          <p>
+            I'm a MERN Stack web developer and designer. I love to create
+            beautiful and functional websites. Follow this journey to see my
+            work and projects.
+          </p>
+          <button><i class="bx bx-send"></i>Contact Me</button>
+        </div>
+        <div class="hero-video-box">
+          <video
+            src="videos/hero-video.mp4"
+            loop
+            autoplay
+            muted
+            plays-inline
+          ></video>
+        </div>
+
+        <div class="scroll-down"></div>
+      </section>
+
+      <!-- <section class="info-section">
+        <h1 class="section-title">Hello, There👋</h1>
+      </section> -->
+    </div>
+  </body>
 </html>

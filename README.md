@@ -1,16 +1,4 @@
 
-<a href="" target="_blank">
-  <img src="./images/thumbnail.png" alt="Thumbnail"/>
-</a>
-
----
-
-### 🎥 Create the Ultimate Portfolio Website with Just HTML, CSS, and JavaScript! 💻
-
-Welcome to the Animated Portfolio project! This repository contains all the resources you need to build a stunning and interactive portfolio website using only HTML, CSS, and JavaScript.
-
----
-
 #### Features
 
 - **Responsive Design**: Looks great on all devices.
